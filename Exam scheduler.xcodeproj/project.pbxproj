@@ -10,10 +10,13 @@
 		DA10999C20C617590036CA35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10999B20C617590036CA35 /* AppDelegate.swift */; };
 		DA10999E20C617590036CA35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10999D20C617590036CA35 /* ViewController.swift */; };
 		DA1099A120C617590036CA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA10999F20C617590036CA35 /* Main.storyboard */; };
-		DA1099A320C6175B0036CA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1099A220C6175B0036CA35 /* Assets.xcassets */; };
 		DA1099A620C6175B0036CA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1099A420C6175B0036CA35 /* LaunchScreen.storyboard */; };
 		DA1099B120C6175B0036CA35 /* Exam_schedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1099B020C6175B0036CA35 /* Exam_schedulerTests.swift */; };
 		DA1099BC20C6175B0036CA35 /* Exam_schedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1099BB20C6175B0036CA35 /* Exam_schedulerUITests.swift */; };
+		DA1099CC218EB4CB0036CA35 /* ImportFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1099CB218EB4CB0036CA35 /* ImportFiles.swift */; };
+		DA1099D4218ED72E0036CA35 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1099D3218ED72D0036CA35 /* logo1.png */; };
+		DA1099D6218ED8880036CA35 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1099D5218ED8870036CA35 /* calendar.png */; };
+		DA1099D8218EE9630036CA35 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1099D7218EE9630036CA35 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		DA10999B20C617590036CA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA10999D20C617590036CA35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA1099A020C617590036CA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA1099A220C6175B0036CA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1099A520C6175B0036CA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA1099A720C6175B0036CA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA1099AC20C6175B0036CA35 /* Exam schedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exam schedulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,10 @@
 		DA1099B720C6175B0036CA35 /* Exam schedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exam schedulerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1099BB20C6175B0036CA35 /* Exam_schedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam_schedulerUITests.swift; sourceTree = "<group>"; };
 		DA1099BD20C6175B0036CA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1099CB218EB4CB0036CA35 /* ImportFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFiles.swift; sourceTree = "<group>"; };
+		DA1099D3218ED72D0036CA35 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ../../../../../Desktop/logo1.png; sourceTree = "<group>"; };
+		DA1099D5218ED8870036CA35 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = ../../../../calendar.png; sourceTree = "<group>"; };
+		DA1099D7218EE9630036CA35 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,11 @@
 			children = (
 				DA10999B20C617590036CA35 /* AppDelegate.swift */,
 				DA10999D20C617590036CA35 /* ViewController.swift */,
+				DA1099D3218ED72D0036CA35 /* logo1.png */,
 				DA10999F20C617590036CA35 /* Main.storyboard */,
-				DA1099A220C6175B0036CA35 /* Assets.xcassets */,
+				DA1099D7218EE9630036CA35 /* ViewController2.swift */,
+				DA1099D5218ED8870036CA35 /* calendar.png */,
+				DA1099CB218EB4CB0036CA35 /* ImportFiles.swift */,
 				DA1099A420C6175B0036CA35 /* LaunchScreen.storyboard */,
 				DA1099A720C6175B0036CA35 /* Info.plist */,
 			);
@@ -230,8 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1099A620C6175B0036CA35 /* LaunchScreen.storyboard in Resources */,
-				DA1099A320C6175B0036CA35 /* Assets.xcassets in Resources */,
 				DA1099A120C617590036CA35 /* Main.storyboard in Resources */,
+				DA1099D6218ED8880036CA35 /* calendar.png in Resources */,
+				DA1099D4218ED72E0036CA35 /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA10999E20C617590036CA35 /* ViewController.swift in Sources */,
+				DA1099D8218EE9630036CA35 /* ViewController2.swift in Sources */,
 				DA10999C20C617590036CA35 /* AppDelegate.swift in Sources */,
+				DA1099CC218EB4CB0036CA35 /* ImportFiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
